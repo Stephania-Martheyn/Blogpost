@@ -2,16 +2,31 @@ body
 {
    text-align: center;
    font-family: ARIAL;
-   color: rgb(156, 30, 72);
+   color: black;
    font-size: 16px;
    margin: 0;
    padding: 0;
+}
+#cabecera
+{
+   background: cornflowerblue;
+   box-shadow: 0px 2px 20px 0px black;
+   color: blue;
+   font-weight: bold;
+   margin: 0;
+   padding: o.5em;
+}
+#cabecera #tagline
+{
+   padding: 0 0 0 1em;
+   font-weight: normal;
+   font-size: 0.8em;
 }
 #container
 {
    width: 70%;
    padding: 1em;
-   border: 1px solid coral;
+   border: 1px solid blue;
    margin: 0 auto;
 }
 #container h1
